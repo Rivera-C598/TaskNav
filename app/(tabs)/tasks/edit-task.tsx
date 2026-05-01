@@ -3,12 +3,12 @@ import { useState } from "react";
 
 import { router, useLocalSearchParams } from "expo-router";
 import {
-    Alert,
-    Pressable,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  Alert,
+  Pressable,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 
 const statusOptions = ["Pending", "Ongoing", "Finished"];
@@ -33,7 +33,7 @@ export default function EditTaskScreen() {
 
       updateTask(Number(params.id), title, description, status);
       Alert.alert("Success", `Task updated successfully.`);
-      router.replace("/tasks");
+      router.replace("/(tabs)/tasks/tasks");
     } catch (error) {
       Alert.alert(
         "Update Error",
