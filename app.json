@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "TaskNavDemo",
-    "slug": "TaskNavDemo",
+    "name": "TaskNavDemo2",
+    "slug": "TaskNavDemo2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "tasknavdemo",
+    "scheme": "tasknavdemo2",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,7 +38,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
